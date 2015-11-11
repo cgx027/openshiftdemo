@@ -1,23 +1,24 @@
 {
-  "name": "webrtc.io",
-  "version": "0.0.4",
-  "description": "Abstraction for webRTC.",
+  "name": "codelab",
+  "version": "0.0.1",
+  "description": "WebRTC codelab",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cavedweller/webRTC.io.git"
-  },
-  "dependencies": {
-    "ws": ">= 0.0.0"
+    "url": "https://bitbucket.org/webrtc/codelab"
   },
   "keywords": [
-    "webrtc"
+    "webrtc",
+    "codelab"
   ],
-  "author": "Ben Brittain",
-  "contributors": [
-      { "name": "Ben Brittain", "email": "ben@brittain.org" }
-    , { "name": "Dennis Mårtensson", "email": "me@dennis.is" }
-    , { "name": "David Peter", "email": "david.a.peter@gmail.com" }
-  ],
-  "license": "MIT"
+  "author": "webrtc",
+  "license": "MIT",
+  "dependencies": {
+    "node-static": "~0.7.1",
+    "socket.io": "~0.9.16",
+    "express": "~3.4.0"
+  }
 }
